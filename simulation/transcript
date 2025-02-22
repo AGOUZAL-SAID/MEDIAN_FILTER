@@ -1,0 +1,44 @@
+# //  Questa Sim-64
+# //  Version 2023.2_1 linux_x86_64 May 12 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim MEDIAN_IMAGE_tb 
+# Start time: 00:15:42 on Jan 13,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.MEDIAN_IMAGE_tb(fast)
+# Loading work.MEDIAN(fast)
+# Loading work.MED(fast)
+# Loading work.MCE(fast)
+run -all
+# erreur : DO =   x au lieu de         201
+# ** Note: $stop    : ../src/MEDIAN_IMAGE_tb.sv(62)
+#    Time: 18555870 ns  Iteration: 1  Instance: /MEDIAN_IMAGE_tb
+# Break in NamedBeginStat ENTREES at ../src/MEDIAN_IMAGE_tb.sv line 62
+run -all
+# erreur : DO =   x au lieu de         154
+# ** Note: $stop    : ../src/MEDIAN_IMAGE_tb.sv(62)
+#    Time: 18556890 ns  Iteration: 1  Instance: /MEDIAN_IMAGE_tb
+# Break in NamedBeginStat ENTREES at ../src/MEDIAN_IMAGE_tb.sv line 62
+run -all
+# erreur : DO =   x au lieu de          90
+# ** Note: $stop    : ../src/MEDIAN_IMAGE_tb.sv(62)
+#    Time: 18557910 ns  Iteration: 1  Instance: /MEDIAN_IMAGE_tb
+# Break in NamedBeginStat ENTREES at ../src/MEDIAN_IMAGE_tb.sv line 62
+run -all
+# erreur : DO =   x au lieu de          78
+# ** Note: $stop    : ../src/MEDIAN_IMAGE_tb.sv(62)
+#    Time: 18558930 ns  Iteration: 1  Instance: /MEDIAN_IMAGE_tb
+# Break in NamedBeginStat ENTREES at ../src/MEDIAN_IMAGE_tb.sv line 62
+# End time: 00:16:03 on Jan 13,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

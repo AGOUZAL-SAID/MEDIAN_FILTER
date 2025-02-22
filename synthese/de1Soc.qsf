@@ -1,0 +1,56 @@
+
+#============================================================
+# DI (utilise les SW 0 a 7  ) DSI utilise le SW[9]
+#============================================================
+set_location_assignment PIN_AB12 -to DI[0]
+set_location_assignment PIN_AC12 -to DI[1]
+set_location_assignment PIN_AF9 -to DI[2]
+set_location_assignment PIN_AF10 -to DI[3]
+set_location_assignment PIN_AD11 -to DI[4]
+set_location_assignment PIN_AD12 -to DI[5]
+set_location_assignment PIN_AE11 -to DI[6]
+set_location_assignment PIN_AC9 -to DI[7]
+#set_location_assignment PIN_AD10 -to SW[8]
+set_location_assignment PIN_AE12 -to DSI
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DI[7]
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DSI
+
+#============================================================
+# DO (utilise les LEDR de 0 à 7) DSO utilise LEDR[9]
+#============================================================
+set_location_assignment PIN_V16 -to DO[0]
+set_location_assignment PIN_W16 -to DO[1]
+set_location_assignment PIN_V17 -to DO[2]
+set_location_assignment PIN_V18 -to DO[3]
+set_location_assignment PIN_W17 -to DO[4]
+set_location_assignment PIN_W19 -to DO[5]
+set_location_assignment PIN_Y19 -to DO[6]
+set_location_assignment PIN_W20 -to DO[7]
+#set_location_assignment PIN_W21 -to LEDR[8]
+set_location_assignment PIN_Y21 -to DSO
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DO[7]
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DSO
+
+# KEY[0] for reset
+set_location_assignment PIN_AA14 -to nRST
+# Not a real clock
+set_location_assignment PIN_AA15 -to CLK
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nRST
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to CLK

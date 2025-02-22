@@ -1,0 +1,768 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+Z2 !s12c _opt1
+R1
+Z3 !s12c _opt
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R3
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+!s11f vlog 2023.2_1 2023.05, May 12 2023
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 d/cal/exterieurs/saitfora-23/2A/SE/souhail-ait-fora/median/simulation
+T_opt
+Z5 !s12d 1342000
+!s110 1736721156
+VN<em<Ic6R44?H2nSGH9>W2
+Z6 04 9 4 work MEDIAN_tb fast 0
+=1-000ae431a4f1-67844303-a5121-3a6098
+!s9c 1
+R1
+Z7 !s12b OEM100
+Z8 !s124 OEM100
+Z9 o-quiet -sdf -auto_acc_if_foreign -work work -sdfmax I_MEDIAN=../synthese/MEDIAN_pr.sdf -suppress 1948
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2023.2_1;77
+R4
+T_opt1
+R5
+!s110 1736721620
+VoOnhSU_MCjVYc0ezJf2oh1
+R6
+=1-000ae431a4f1-678444d3-4da5c-3a715f
+!s9c 1
+R1
+R7
+R8
+R9
+R10
+n@_opt1
+R11
+R4
+T_opt2
+!s110 1736722398
+VN<WZaPIb]1al>A=;89]5W2
+04 15 4 work MEDIAN_IMAGE_tb fast 0
+=1-000ae431a4f1-678447dd-30776-3a8a6e
+R1
+R7
+R8
+o-quiet -auto_acc_if_foreign -work work
+R10
+n@_opt2
+R11
+vMCE
+2../src/MCE.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1736720498
+!i10b 1
+!s100 @E7;WZ5lDg9Y93IOkiYUX0
+Imd;^DnjkjV=Uf0kW_4;]G3
+S1
+Z13 d/cal/exterieurs/sagouzal-23/projse04/souhail-ait-fora/median/simulation
+w1734363045
+8../src/MCE.sv
+F../src/MCE.sv
+!i122 23
+L0 1 11
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+Z15 OL;L;2023.2_1;77
+r1
+!s85 0
+31
+!s108 1736720498.000000
+!s107 ../src/MCE.sv|
+!s90 +acc|../src/MCE.sv|
+!i113 0
+Z16 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+n@m@c@e
+vMED
+2../src/MED.sv
+R12
+!s110 1736720489
+!i10b 1
+!s100 N<1R<EzdeXP8KSF2N60dD2
+IG[>@>k>gDfz9XN0I2fl?D1
+S1
+R13
+w1736615834
+8../src/MED.sv
+F../src/MED.sv
+!i122 22
+L0 1 33
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736720489.000000
+!s107 ../src/MED.sv|
+!s90 +acc|../src/MED.sv|
+!i113 0
+R16
+R10
+n@m@e@d
+vMEDIAN
+2../src/MEDIAN.sv
+R12
+!s110 1736722330
+!i10b 1
+!s100 SF2d4S81H;BTjcNnBhCi]2
+ICFe@RXlJNdB3<WTIK:<AT1
+S1
+R13
+w1736717098
+8../src/MEDIAN.sv
+F../src/MEDIAN.sv
+!i122 29
+L0 1 100
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736722330.000000
+!s107 ../src/MEDIAN.sv|
+!s90 +acc|../src/MEDIAN.sv|
+!i113 0
+R16
+R10
+n@m@e@d@i@a@n
+vMEDIAN_IMAGE_tb
+2../src/MEDIAN_IMAGE_tb.sv
+R12
+!s110 1736722388
+!i10b 1
+!s100 fK1]Ni9L5OcRcmS5j0n610
+IBz1c[gI7_0@i4AB26B;lM2
+S1
+R13
+w1736719826
+8../src/MEDIAN_IMAGE_tb.sv
+F../src/MEDIAN_IMAGE_tb.sv
+!i122 30
+L0 8 64
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736722388.000000
+!s107 ../src/MEDIAN_IMAGE_tb.sv|
+!s90 +acc|../src/MEDIAN_IMAGE_tb.sv|
+!i113 0
+R16
+R10
+n@m@e@d@i@a@n_@i@m@a@g@e_tb
+vMEDIAN_tb
+2../src/MEDIAN_tb.sv
+R12
+!s110 1736715219
+!i10b 1
+!s100 lJZA=WOVf^88Yc>IaHS=]1
+I;_edC>LPakmS>PCdDBLF70
+S1
+R13
+w1736714774
+8../src/MEDIAN_tb.sv
+F../src/MEDIAN_tb.sv
+!i122 11
+L0 8 54
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736715218.000000
+!s107 ../src/MEDIAN_tb.sv|
+!s90 +acc|../src/MEDIAN_tb.sv|
+!i113 0
+R16
+R10
+n@m@e@d@i@a@n_tb
+vMISTRAL_ALUT2
+Z17 2/comelec/softs/opt/yosys/cycloneV_sim_libs/alm_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/buf_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dff_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dsp_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/mem_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/misc_sim.v
+Z18 !s110 1736721546
+!i10b 1
+!s100 6WLVdhiz^Qm=cJnAg:5N;0
+I52gD^W;N^U<<KmU>`ebmR2
+R13
+Z19 w1702286101
+Z20 8/comelec/softs/opt/yosys/cycloneV_sim_libs/alm_sim.v
+Z21 F/comelec/softs/opt/yosys/cycloneV_sim_libs/alm_sim.v
+!i122 27
+L0 236 26
+R14
+R15
+r1
+!s85 0
+31
+Z22 !s108 1736721545.000000
+Z23 !s107 /comelec/softs/opt/yosys/cycloneV_sim_libs/misc_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/mem_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dsp_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dff_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/buf_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/alm_sim.v|
+Z24 !s90 +acc|+define+cyclonev|/comelec/softs/opt/yosys/cycloneV_sim_libs/alm_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/buf_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dff_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/dsp_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/mem_sim.v|/comelec/softs/opt/yosys/cycloneV_sim_libs/misc_sim.v|
+!i113 0
+R16
+Z25 !s92 +acc +define+cyclonev -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t2
+vMISTRAL_ALUT3
+R17
+R18
+!i10b 1
+!s100 =l9e3@End<5odz03jD1EX1
+I;l=ZcLNWfU=K<3>;4jcgA0
+R13
+R19
+R20
+R21
+!i122 27
+L0 204 29
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t3
+vMISTRAL_ALUT4
+R17
+R18
+!i10b 1
+!s100 GO<?Xm0T:]Q>D6VaXHhi:1
+IJ:PeP]oNPPQC?YCT:S=fh2
+R13
+R19
+R20
+R21
+!i122 27
+L0 169 32
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t4
+vMISTRAL_ALUT5
+R17
+R18
+!i10b 1
+!s100 Y2CV3zdV=:VF3MfbVlGOP1
+Ii?_c6>=c^gWF8f1DGWK?Q2
+R13
+R19
+R20
+R21
+!i122 27
+L0 131 35
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t5
+vMISTRAL_ALUT6
+R17
+R18
+!i10b 1
+!s100 IZeGQMXn04;>QnA>ckIzh3
+IE7eoLjzhiHdz1I[0Z3Ug71
+R13
+R19
+R20
+R21
+!i122 27
+L0 90 38
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t6
+vMISTRAL_ALUT_ARITH
+R17
+R18
+!i10b 1
+!s100 mJ?gg0mdXMgfh4`RPzFkg2
+IkMahQe5=bkdST[5cK:XJM0
+R13
+R19
+R20
+R21
+!i122 27
+L0 287 65
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@a@l@u@t_@a@r@i@t@h
+vMISTRAL_BUF
+R17
+R18
+!i10b 1
+!s100 2V@;ZN@]MVKI3OA3hfRz23
+I?h9^9JJPTKbDS0moKD9>@1
+R13
+R19
+Z26 8/comelec/softs/opt/yosys/cycloneV_sim_libs/buf_sim.v
+Z27 F/comelec/softs/opt/yosys/cycloneV_sim_libs/buf_sim.v
+!i122 27
+L0 5 21
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@b@u@f
+vMISTRAL_CLKBUF
+R17
+R18
+!i10b 1
+!s100 ?JYLOZBC?<a:hZcSK^o0W2
+InT^0`A4^d???=V[oXlanQ1
+R13
+R19
+Z28 8/comelec/softs/opt/yosys/cycloneV_sim_libs/misc_sim.v
+Z29 F/comelec/softs/opt/yosys/cycloneV_sim_libs/misc_sim.v
+!i122 27
+L0 19 6
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@c@l@k@b@u@f
+vMISTRAL_CONST
+R17
+R18
+!i10b 1
+!s100 0XB@_h_jP2=gWXd1ZRICP2
+Id?7]bUQdKDc4zM]Pf0;eg3
+R13
+R19
+R26
+R27
+!i122 27
+L0 28 7
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@c@o@n@s@t
+vMISTRAL_FF
+R17
+R18
+!i10b 1
+!s100 48?^Ja_iSbgTK2Wg0:1?<3
+In=nDW^1MB[^OlfhRiWNnP0
+R13
+R19
+Z30 8/comelec/softs/opt/yosys/cycloneV_sim_libs/dff_sim.v
+Z31 F/comelec/softs/opt/yosys/cycloneV_sim_libs/dff_sim.v
+!i122 27
+L0 95 79
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@f@f
+vMISTRAL_IB
+R17
+R18
+!i10b 1
+!s100 oc`5^KfPLFfk3E`N905D40
+Ig:SPSWg2G9M:9Fi[L4cC:0
+R13
+R19
+R28
+R29
+!i122 27
+L0 4 3
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@i@b
+vMISTRAL_IO
+R17
+R18
+!i10b 1
+!s100 _Cj4DlS^?kgjz5NEd`7V;1
+ILc@K=4Ok`bRmOUXH@Q:f>1
+R13
+R19
+R28
+R29
+!i122 27
+L0 12 4
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@i@o
+vMISTRAL_M10K
+R17
+R18
+!i10b 1
+!s100 6oQo7;FoZ1Q3gL^VhOal?3
+IA:H6QXVJlD3WLj5=ChE@K1
+R13
+R19
+Z32 8/comelec/softs/opt/yosys/cycloneV_sim_libs/mem_sim.v
+Z33 F/comelec/softs/opt/yosys/cycloneV_sim_libs/mem_sim.v
+!i122 27
+L0 113 47
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@m10@k
+vMISTRAL_MLAB
+R17
+R18
+!i10b 1
+!s100 L:IzX?PGRzcK>_ogioJk40
+I@4n?YImZ7L5_nn5T0nLDo1
+R13
+R19
+R32
+R33
+!i122 27
+L0 55 53
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@m@l@a@b
+vMISTRAL_MUL18X18
+R17
+R18
+!i10b 1
+!s100 kgNZN`KkFI^IUdj_];C2:1
+ISCI>gIPJHCd7kgmPll[PB0
+R13
+R19
+Z34 8/comelec/softs/opt/yosys/cycloneV_sim_libs/dsp_sim.v
+Z35 F/comelec/softs/opt/yosys/cycloneV_sim_libs/dsp_sim.v
+!i122 27
+L0 48 41
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@m@u@l18@x18
+vMISTRAL_MUL27X27
+R17
+R18
+!i10b 1
+!s100 dji3FaNm;K?S7V@VKRghQ1
+IYHJ<=U^?gZM06o39O`3@N2
+R13
+R19
+R34
+R35
+!i122 27
+L0 5 41
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@m@u@l27@x27
+vMISTRAL_MUL9X9
+R17
+R18
+!i10b 1
+!s100 5J]QAncLO>C9>fnYannBV3
+I<hncJH1PTDaS2baURC15]1
+R13
+R19
+R34
+R35
+!i122 27
+L0 91 41
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@m@u@l9@x9
+vMISTRAL_NOT
+R17
+R18
+!i10b 1
+!s100 >]XJY8<VVVl6R@cV?6^Rb3
+IzaOF_z=C;gmWdHeoWgk:B0
+R13
+R19
+R20
+R21
+!i122 27
+L0 264 21
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@n@o@t
+vMISTRAL_OB
+R17
+R18
+!i10b 1
+!s100 Db_gZTfBCV?MgjDR>H]^W3
+IKShIa5DUTHWimd?Qh:1RF2
+R13
+R19
+R28
+R29
+!i122 27
+L0 8 3
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@o@b
+UMISTRAL_PRIM_FF
+R17
+R18
+!i10b 1
+!s100 k@Se3iOb[GdPmj7Y6Eab60
+I]zT2NJWI1K:E=m>D[X5L[1
+R13
+R19
+R30
+R31
+!i122 27
+L0 61 0
+R14
+R15
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 0
+R16
+R25
+R10
+n@m@i@s@t@r@a@l_@p@r@i@m_@f@f
+vtest_MED
+2../src/test_MED.sv
+R12
+!s110 1736715647
+!i10b 1
+!s100 F<J_k1c6aM^3b@`D:nIzR2
+I@B0<R:DN;05C1;JFfN4z;0
+S1
+R13
+w1736617958
+8../src/test_MED.sv
+F../src/test_MED.sv
+!i122 15
+L0 1 71
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736715647.000000
+!s107 ../src/test_MED.sv|
+!s90 +acc|../src/test_MED.sv|
+!i113 0
+R16
+R10
+ntest_@m@e@d
+vtest_MEDIAN
+2../src/test_MEDIAN.sv
+R12
+!s110 1736632036
+!i10b 1
+!s100 `mzQAG3LI^AhPboJb4doo1
+I9C@ZMbM>J:i>OeDE_k0kM0
+S1
+R13
+w1736631990
+8../src/test_MEDIAN.sv
+F../src/test_MEDIAN.sv
+!i122 9
+L0 1 69
+R14
+R15
+r1
+!s85 0
+31
+!s108 1736632036.000000
+!s107 ../src/test_MEDIAN.sv|
+!s90 +acc|../src/test_MEDIAN.sv|
+!i113 0
+R16
+R10
+ntest_@m@e@d@i@a@n
